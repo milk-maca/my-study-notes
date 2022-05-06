@@ -22,7 +22,7 @@ git config --global user.email "e@mail.com"
 ```
 
 
-### 기본적인 명령어
+### 업로드를 위한 기본적인 명령어
 
 - 해당 폴더의 변경사항을 추적
 ``` Bash
@@ -51,7 +51,7 @@ git commit -m "msg"
 git remote add [저장소 이름] [해당 저장소의 URL] 
 ```
 
-- [저장소 이름]의 [분기점]에 변경사항을 업로드
+- [저장소 이름]의 [브랜치]에 변경사항을 푸쉬
 ```Bash
-git push [저장소 이름] [분기점] 
+git push [저장소 이름] [브랜치] 
 ```
