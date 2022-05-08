@@ -31,3 +31,10 @@ git branch [브랜치 이름]
 ```Bash
 git checkout [브랜치 이름]
 ```
+### 머지(Merge)
+
+- 현재 브랜치에 [브랜치 이름]를 병합
+```Bash
+git merge [브랜치 이름]
+```
+ 
